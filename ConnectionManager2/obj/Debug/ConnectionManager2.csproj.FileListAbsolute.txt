@@ -1,0 +1,11 @@
+c:\users\mwalima\documents\visual studio 2012\Projects\ConnectionManager2\ConnectionManager2\bin\Debug\ConnectionManager2.exe.config
+c:\users\mwalima\documents\visual studio 2012\Projects\ConnectionManager2\ConnectionManager2\bin\Debug\ConnectionManager2.exe
+c:\users\mwalima\documents\visual studio 2012\Projects\ConnectionManager2\ConnectionManager2\bin\Debug\ConnectionManager2.pdb
+c:\users\mwalima\documents\visual studio 2012\Projects\ConnectionManager2\ConnectionManager2\obj\Debug\ConnectionManager2.Properties.Resources.resources
+c:\users\mwalima\documents\visual studio 2012\Projects\ConnectionManager2\ConnectionManager2\obj\Debug\ConnectionManager2.Welcome.resources
+c:\users\mwalima\documents\visual studio 2012\Projects\ConnectionManager2\ConnectionManager2\obj\Debug\ConnectionManager2.csproj.GenerateResource.Cache
+c:\users\mwalima\documents\visual studio 2012\Projects\ConnectionManager2\ConnectionManager2\obj\Debug\ConnectionManager2.exe
+c:\users\mwalima\documents\visual studio 2012\Projects\ConnectionManager2\ConnectionManager2\obj\Debug\ConnectionManager2.pdb
+c:\users\mwalima\documents\visual studio 2012\Projects\ConnectionManager2\ConnectionManager2\bin\Debug\SimpleWifi.dll
+C:\Users\Mwalima\Documents\Visual Studio 2012\Projects\ConnectionManager2\ConnectionManager2\obj\Debug\ConnectionManager2.connection_manager.resources
+C:\Users\Mwalima\documents\visual studio 2012\Projects\ConnectionManager2\ConnectionManager2\obj\Debug\ConnectionManager2.csprojResolveAssemblyReference.cache
