@@ -1,1 +1,7 @@
-﻿
+﻿{
+  "language": "csharp",
+  "solution": "ConnectionManager2.sln",
+  "group": "stable",
+  "dist": "trusty",
+  "os": "windows"
+}
