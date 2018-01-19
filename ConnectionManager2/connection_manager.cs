@@ -108,6 +108,9 @@ namespace ConnectionManager2
                         //add somelayout to keep the list item selected
                         LvItem.SubItems.Add(ap.IsSecure + "!");
                         listView1.Items.Add(LvItem);
+                        if(LvItem.Selected == true){
+                            password_label.Text = "";
+                        }
                     }
                 }
                 else
@@ -137,33 +140,34 @@ namespace ConnectionManager2
                 if (wifi_connect_checkBox.Checked)
                 {
 
-                    BroadbandDevice broadband = new BroadbandDevice();
-                    List<BroadbandDevice> aps = MobileBroadband.BroadbandDevice;
+                    //BroadbandDevice broadband = new BroadbandDevice();
+                    //List<BroadbandDevice> aps = MobileBroadband.BroadbandDevice;
 
                     //check if there is an adapter active
-                    if (aps.Count > 0 && wifi_connect_checkBox.Checked)
-                    {
-                        password_label.Text = "Select an Accespoint!";
+                    //if (aps.Count > 0 && wifi_connect_checkBox.Checked)
+                    //{
+                    //password_label.Text = "Select an Accespoint!";
 
-                        foreach (AccessPoint ap in aps)
-                        {
-                            ListViewItem LvItem = new ListViewItem(ap.Name);
-                            LvItem.SubItems.Add(ap.SignalStrength + "%");
-                            LvItem.Tag = ap;
-                            LvItem.SubItems.Add(ap.IsConnected + "!");
-                            //add somelayout to keep the list item selected
-                            LvItem.SubItems.Add(ap.IsSecure + "!");
-                            listView1.Items.Add(LvItem);
-                        }
-                    }
-                    else
-                    {
-                        password_label.Text = "Please check internet adaptor status";
-                    }
-                }
-                else
-                {
-                    password_label.Text = "Please check an connection method";
+                    //foreach (AccessPoint ap in aps)
+                    // {
+                    //ListViewItem LvItem = new ListViewItem(ap.Name);
+                    //LvItem.SubItems.Add(ap.SignalStrength + "%");
+                    ////LvItem.Tag = ap;
+                    //LvItem.SubItems.Add(ap.IsConnected + "!");
+                    ///add somelayout to keep the list item selected
+                    //LvItem.SubItems.Add(ap.IsSecure + "!");
+                    //listView1.Items.Add(LvItem);
+                    //}
+                    //}
+                    //else
+                    //{
+                    //    password_label.Text = "Please check internet adaptor status";
+                    // }
+                    //}
+                    //else
+                    // {
+                    //     password_label.Text = "Please check an connection method";
+                    //}
                 }
             }
         }

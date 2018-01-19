@@ -1,9 +1,5 @@
 ﻿using SimpleWifi.Win32;
 using SimpleWifi.Win32.Interop;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 
 namespace SimpleWifi
@@ -58,7 +54,6 @@ namespace SimpleWifi
 		{
 			get
 			{
-				#warning Robin: Not sure that Enterprise networks have the same requirements on the password complexity as standard ones.
 				return PasswordHelper.IsValid(_password, _network.dot11DefaultCipherAlgorithm);
 			}
 		}

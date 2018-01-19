@@ -32,6 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="%24safeprojectname%24, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Test_SDKTemplate.1.0\lib\net40\$safeprojectname$.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="SimpleWifi">
       <HintPath>..\packages\SimpleWifi.1.0.0.0\lib\net40\SimpleWifi.dll</HintPath>
     </Reference>
@@ -48,9 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccessPoint.cs" />
-    <Compile Include="AccountWatcher.xaml.cs" />
     <Compile Include="AuthRequest.cs" />
-    <Compile Include="BroadbandDevice.xaml.cs" />
     <Compile Include="connection_manager.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,7 +60,6 @@
       <DependentUpon>connection_manager.cs</DependentUpon>
     </Compile>
     <Compile Include="EapUserFactory.cs" />
-    <Compile Include="GetConnectionProfiles.xaml.cs" />
     <Compile Include="ProfileFactory.cs" />
     <Compile Include="ShowConnection.xaml.cs" />
     <Compile Include="StartStopTethering.xaml.cs" />
@@ -94,7 +95,6 @@
     <EmbeddedResource Include="Welcome.resx">
       <DependentUpon>Welcome.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -104,16 +104,24 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="EapUserXML\EAP-MS-CHAPv2.xml" />
     <Content Include="EapUserXML\EAP-TLS.xml" />
     <Content Include="EapUserXML\PEAP-MS-CHAPv2.xml" />
     <Content Include="EapUserXML\PEAP-TLS.xml" />
     <Content Include="EapUserXML\SDK.xml" />
+    <Content Include="Global.asax" />
     <Content Include="ProfileXML\OPEN.xml" />
     <Content Include="ProfileXML\WEP.xml" />
     <Content Include="ProfileXML\WPA-Enterprise-PEAP-MSCHAPv2.xml" />
@@ -122,6 +130,10 @@
     <Content Include="ProfileXML\WPA2-Enterprise-PEAP-MSCHAPv2.xml" />
     <Content Include="ProfileXML\WPA2-Enterprise-TLS.xml" />
     <Content Include="ProfileXML\WPA2-PSK.xml" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\Site.css" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

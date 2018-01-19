@@ -133,10 +133,11 @@
             this.textBox1.Location = new System.Drawing.Point(19, 215);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.Name = "mobile_textBox";
+            this.Text = "mobile_textBox";
             this.textBox1.Size = new System.Drawing.Size(349, 86);
             this.textBox1.TabIndex = 6;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
+            
             // connection_manager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);

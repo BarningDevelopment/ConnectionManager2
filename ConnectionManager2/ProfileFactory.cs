@@ -72,11 +72,12 @@ namespace SimpleWifi
 		private static string GetTemplate(string name)
 		{
 			string resourceName = string.Format("SimpleWifi.ProfileXML.{0}.xml", name);
-
-			using (StreamReader reader = new StreamReader(Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName)))
-			{
-				return reader.ReadToEnd();
-			}
+            
+                using (StreamReader reader = new StreamReader(Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName)))
+                {
+                    return reader.ReadToEnd();
+                }
+           
 		}
 
 		/// <summary>
