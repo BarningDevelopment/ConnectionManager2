@@ -16,7 +16,6 @@ using System.Xml.Schema;
 using System.Xml.XPath;
 using SimpleWifi;
 
-using MobileBroadband;
 
 
 namespace ConnectionManager2

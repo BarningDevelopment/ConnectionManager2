@@ -2,3 +2,10 @@ C:\Users\Mwalima\Documents\Visual Studio 2012\Projects\ConnectionManager2\Connec
 C:\Users\Mwalima\Documents\Visual Studio 2012\Projects\ConnectionManager2\ConnectionManager2\obj\Debug\ConnectionManager2.Properties.Resources.resources
 C:\Users\Mwalima\Documents\Visual Studio 2012\Projects\ConnectionManager2\ConnectionManager2\obj\Debug\ConnectionManager2.welcome.resources
 C:\Users\Mwalima\Documents\Visual Studio 2012\Projects\ConnectionManager2\ConnectionManager2\obj\Debug\ConnectionManager2.csproj.GenerateResource.Cache
+C:\Users\Mwalima\Documents\Visual Studio 2012\Projects\ConnectionManager2\ConnectionManager2\bin\Debug\ConnectionManager2.exe.config
+C:\Users\Mwalima\Documents\Visual Studio 2012\Projects\ConnectionManager2\ConnectionManager2\bin\Debug\ConnectionManager2.exe
+C:\Users\Mwalima\Documents\Visual Studio 2012\Projects\ConnectionManager2\ConnectionManager2\bin\Debug\ConnectionManager2.pdb
+C:\Users\Mwalima\Documents\Visual Studio 2012\Projects\ConnectionManager2\ConnectionManager2\bin\Debug\$safeprojectname$.dll
+C:\Users\Mwalima\Documents\Visual Studio 2012\Projects\ConnectionManager2\ConnectionManager2\bin\Debug\SimpleWifi.dll
+C:\Users\Mwalima\Documents\Visual Studio 2012\Projects\ConnectionManager2\ConnectionManager2\obj\Debug\ConnectionManager2.exe
+C:\Users\Mwalima\Documents\Visual Studio 2012\Projects\ConnectionManager2\ConnectionManager2\obj\Debug\ConnectionManager2.pdb
