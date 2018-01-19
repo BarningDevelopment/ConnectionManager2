@@ -38,7 +38,14 @@
             this.password_label = new System.Windows.Forms.Label();
             this.wifi_connect_checkBox = new System.Windows.Forms.CheckBox();
             this.mobile_connect_checkBox = new System.Windows.Forms.CheckBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.connect_mobile_button = new System.Windows.Forms.Button();
+            this.password_mobile_label = new System.Windows.Forms.Label();
+            this.password_mobile_textBox = new System.Windows.Forms.TextBox();
+            this.listView2 = new System.Windows.Forms.ListView();
+            this.AccesPointMobilecolumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.SignalStrengthMobilecolumnHead = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.StatusMobilecolumnHead = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.SecurityMobilecolumnHead = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // listView1
@@ -120,7 +127,7 @@
             // 
             this.mobile_connect_checkBox.AutoSize = true;
             this.mobile_connect_checkBox.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.mobile_connect_checkBox.Location = new System.Drawing.Point(90, 174);
+            this.mobile_connect_checkBox.Location = new System.Drawing.Point(90, 192);
             this.mobile_connect_checkBox.Name = "mobile_connect_checkBox";
             this.mobile_connect_checkBox.Size = new System.Drawing.Size(100, 17);
             this.mobile_connect_checkBox.TabIndex = 5;
@@ -128,22 +135,74 @@
             this.mobile_connect_checkBox.UseVisualStyleBackColor = false;
             this.mobile_connect_checkBox.CheckedChanged += new System.EventHandler(this.mobile_connect_checkBox_CheckedChanged);
             // 
-            // textBox1
+            // connect_mobile_button
             // 
-            this.textBox1.Location = new System.Drawing.Point(19, 215);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.Name = "mobile_textBox";
-            this.Text = "mobile_textBox";
-            this.textBox1.Size = new System.Drawing.Size(349, 86);
-            this.textBox1.TabIndex = 6;
-            
+            this.connect_mobile_button.Location = new System.Drawing.Point(416, 215);
+            this.connect_mobile_button.Name = "connect_mobile_button";
+            this.connect_mobile_button.Size = new System.Drawing.Size(144, 23);
+            this.connect_mobile_button.TabIndex = 7;
+            this.connect_mobile_button.Text = "connect to mobile";
+            this.connect_mobile_button.UseVisualStyleBackColor = true;
+            // 
+            // password_mobile_label
+            // 
+            this.password_mobile_label.AutoSize = true;
+            this.password_mobile_label.Location = new System.Drawing.Point(421, 251);
+            this.password_mobile_label.Name = "password_mobile_label";
+            this.password_mobile_label.Size = new System.Drawing.Size(53, 13);
+            this.password_mobile_label.TabIndex = 8;
+            this.password_mobile_label.Text = "Password";
+            // 
+            // password_mobile_textBox
+            // 
+            this.password_mobile_textBox.Location = new System.Drawing.Point(424, 267);
+            this.password_mobile_textBox.Name = "password_mobile_textBox";
+            this.password_mobile_textBox.Size = new System.Drawing.Size(136, 20);
+            this.password_mobile_textBox.TabIndex = 9;
+            // 
+            // listView2
+            // 
+            this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.AccesPointMobilecolumnHeader,
+            this.SignalStrengthMobilecolumnHead,
+            this.StatusMobilecolumnHead,
+            this.SecurityMobilecolumnHead});
+            this.listView2.Location = new System.Drawing.Point(12, 215);
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(356, 125);
+            this.listView2.TabIndex = 10;
+            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.listView2.View = System.Windows.Forms.View.Details;
+            // 
+            // AccesPointMobilecolumnHeader
+            // 
+            this.AccesPointMobilecolumnHeader.Text = "Acces Point";
+            this.AccesPointMobilecolumnHeader.Width = 79;
+            // 
+            // SignalStrengthMobilecolumnHead
+            // 
+            this.SignalStrengthMobilecolumnHead.Text = "Signal strength";
+            this.SignalStrengthMobilecolumnHead.Width = 85;
+            // 
+            // StatusMobilecolumnHead
+            // 
+            this.StatusMobilecolumnHead.Text = "Status";
+            this.StatusMobilecolumnHead.Width = 93;
+            // 
+            // SecurityMobilecolumnHead
+            // 
+            this.SecurityMobilecolumnHead.Text = "Security";
+            this.SecurityMobilecolumnHead.Width = 114;
+            // 
             // connection_manager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(647, 335);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(647, 412);
+            this.Controls.Add(this.listView2);
+            this.Controls.Add(this.password_mobile_textBox);
+            this.Controls.Add(this.password_mobile_label);
+            this.Controls.Add(this.connect_mobile_button);
             this.Controls.Add(this.mobile_connect_checkBox);
             this.Controls.Add(this.wifi_connect_checkBox);
             this.Controls.Add(this.password_label);
@@ -170,6 +229,13 @@
         private System.Windows.Forms.Label password_label;
         private System.Windows.Forms.CheckBox wifi_connect_checkBox;
         private System.Windows.Forms.CheckBox mobile_connect_checkBox;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button connect_mobile_button;
+        private System.Windows.Forms.Label password_mobile_label;
+        private System.Windows.Forms.TextBox password_mobile_textBox;
+        private System.Windows.Forms.ListView listView2;
+        private System.Windows.Forms.ColumnHeader AccesPointMobilecolumnHeader;
+        private System.Windows.Forms.ColumnHeader SignalStrengthMobilecolumnHead;
+        private System.Windows.Forms.ColumnHeader StatusMobilecolumnHead;
+        private System.Windows.Forms.ColumnHeader SecurityMobilecolumnHead;
     }
 }
